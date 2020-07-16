@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tips"></activity>
+        <activity android:name=".Video"></activity>
+        <activity android:name=".easy_dinner" />
+        <activity android:name=".easy_snacks" />
+        <activity android:name=".easy_lunch" />
+        <activity android:name=".easy_breakfast" />
+        <activity android:name=".keto_dinner" />
+        <activity android:name=".keto_snacks" />
+        <activity android:name=".keto_lunch" />
+        <activity android:name=".keto_breakfast" />
+        <activity android:name=".card_view" />
+        <activity android:name=".Tips" />
         <activity android:name=".meal2" />
         <activity android:name=".meal1" />
         <activity android:name=".Details" />
-        <activity
-            android:name=".Diet_plans"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".Exercises" />
         <activity android:name=".BMI_Calculator" />
         <activity android:name=".Register" />

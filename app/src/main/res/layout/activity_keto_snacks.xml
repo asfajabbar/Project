@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDB99C"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KETO DIET PLAN"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Healthy Diet"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="125dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snacks options"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="105dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/snacks"
+        android:layout_marginTop="15dp"
+        android:background="#CDB99C"/>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50sp"
+        android:text="Options (One per day)"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carrot sticks and hummus"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date and apple"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blueberry smoothie"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Black Coffee"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One seasonal Fruit"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One glass low fat milk"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One glass of Fresh Juice"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wheatable Biscuits (2 max)"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handfull of dry Fruits"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Small servings of Pop corns"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tea(No sugar added)"
+        android:textSize="20sp"
+        android:layout_marginLeft="12dp"/>
+
+
+
+
+
+
+</LinearLayout>

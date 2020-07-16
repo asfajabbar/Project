@@ -19,6 +19,7 @@
 
         <Button
             android:layout_width="360dp"
+            android:id="@+id/bf1"
             android:layout_height="45dp"
             android:layout_gravity="center"
             android:layout_marginTop="200dp"
@@ -39,6 +40,7 @@
             android:layout_marginTop="50dp"
             android:background="@drawable/btn"
             android:text="Lunch"
+            android:id="@+id/lunch1"
             android:textAllCaps="false"
             android:textStyle="italic"
             android:textSize="20sp"
@@ -52,6 +54,7 @@
             android:layout_marginTop="50dp"
             android:background="@drawable/btn"
             android:text="Dinner"
+            android:id="@+id/dinner1"
             android:textAllCaps="false"
             android:textStyle="italic"
             android:textSize="20sp"
@@ -62,6 +65,7 @@
             android:layout_height="45dp"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
+            android:id="@+id/snack1"
             android:background="@drawable/btn"
             android:text="Snack"
             android:textStyle="italic"

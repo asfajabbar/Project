@@ -23,7 +23,7 @@ public class Exercises extends AppCompatActivity implements AdapterView.OnItemCl
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_exercises);
 
         wodList= DataHelper.loadWorkout(this);
         tittleList=new ArrayList<>();

@@ -27,7 +27,7 @@
         android:layout_marginTop="6dp"
         android:inputType="textEmailAddress"
         android:hint="abc@example.com"
-        android:textColorHint="#7ECDDC39"
+        android:textColorHint="#cdc9c9"
         android:drawableRight="@drawable/ic_baseline_email_24"
         />
     <EditText
@@ -43,7 +43,7 @@
         android:layout_marginTop="6dp"
         android:inputType="textPassword"
         android:hint="password"
-        android:textColorHint="#7ECDDC39"
+        android:textColorHint="#cdc9c9"
         />
     <Button
         android:layout_width="match_parent"
@@ -53,11 +53,11 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
-        android:background="@drawable/buttons_background"
+        android:background="#9acd32"
         android:text="Login"
         android:textAllCaps="false"
         android:textSize="17dp"
-        android:textColor="@android:color/holo_green_light"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         />
 
@@ -69,13 +69,13 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
-        android:background="#C6FFC107"
+        android:layout_marginBottom="50dp"
+        android:background="#3cb371"
         android:text="Need new Account? Sign Up"
         android:textAllCaps="false"
         android:textColor="#ffffff"
-        android:textStyle="bold"
         android:textSize="17dp"
+        android:textStyle="bold"
 
         />
 

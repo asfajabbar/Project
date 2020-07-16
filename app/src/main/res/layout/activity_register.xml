@@ -26,8 +26,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
         android:inputType="textEmailAddress"
-        android:hint="Full Name..."
-        android:textColorHint="#7ECDDC39"
+        android:hint="Full Name"
+        android:textColorHint="#cdc9c9"
         android:drawableRight="@drawable/ic_baseline_person_24"/>
     <EditText
         android:id="@+id/username_signUp"
@@ -40,8 +40,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
         android:inputType="textEmailAddress"
-        android:hint="Username..."
-        android:textColorHint="#7ECDDC39"
+        android:hint="Username"
+        android:textColorHint="#cdc9c9"
         />
     <EditText
         android:id="@+id/Email_signUp"
@@ -54,8 +54,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
         android:inputType="textEmailAddress"
-        android:hint="abc@example.com..."
-        android:textColorHint="#7ECDDC39"
+        android:hint="abc@example.com"
+        android:textColorHint="#cdc9c9"
         android:drawableRight="@drawable/ic_baseline_email_24"
 
         />
@@ -70,8 +70,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
         android:inputType="textPassword"
-        android:hint="Password..."
-        android:textColorHint="#7ECDDC39"
+        android:hint="Password"
+        android:textColorHint="#cdc9c9"
         android:drawableRight="@drawable/ic_baseline_lock_24"
         />
     <Button
@@ -82,11 +82,11 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
-        android:background="@drawable/buttons_background"
+        android:background="#9acd32"
         android:text="Register Here"
         android:textAllCaps="false"
         android:textSize="17dp"
-        android:textColor="@android:color/holo_green_light"
+        android:textColor="#ffffff"
         android:textStyle="bold"
         />
 
@@ -98,7 +98,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="6dp"
-        android:background="#C6FFC107"
+        android:background="#3cb371"
         android:text="Already Have an Account? Sign in"
         android:textAllCaps="false"
         android:textSize="17dp"
